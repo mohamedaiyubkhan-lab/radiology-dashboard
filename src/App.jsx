@@ -10,6 +10,8 @@ import DoctorRequest from "./pages/DoctorRequest";
 import ReportEntry from "./pages/ReportEntry";
 import ReportCentre from "./pages/ReportCentre";
 
+
+
 function App() {
   return (
     <div className="app-layout">

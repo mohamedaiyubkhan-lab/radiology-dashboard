@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 * {
@@ -13,7 +12,10 @@ body {
   color: #202b43;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
 }
 
@@ -779,7 +781,7 @@ button {
     padding: 0 2px 25px;
   }
 
-  .brand > div:last-child,
+  .brand>div:last-child,
   .sidebar-label,
   .nav-link span,
   .sidebar-bottom div {
@@ -862,4 +864,69 @@ button {
   .module-modal {
     padding: 18px;
   }
+}
+
+.radiology-payment-panel {
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.radiology-payment-panel .panel-heading p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #718096;
+}
+
+.radiology-payment-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 18px;
+}
+
+.radiology-payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 750px;
+}
+
+.radiology-payment-table th,
+.radiology-payment-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #edf0f5;
+  font-size: 13px;
+}
+
+.radiology-payment-table th {
+  background: #f7f9fc;
+  color: #526078;
+  font-weight: 600;
+}
+
+.radiology-payment-table td {
+  color: #344054;
+}
+
+.radiology-payment-status {
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.radiology-payment-status.paid {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.radiology-payment-status.unpaid {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.empty-payment-row {
+  text-align: center !important;
+  padding: 25px !important;
+  color: #718096 !important;
 }
